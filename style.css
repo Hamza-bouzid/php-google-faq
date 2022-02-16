@@ -4,6 +4,90 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #618bde;
+}
+
+ol {
+  padding: 10px 0px 10px 15px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+.list-letter {
+  list-style-type:lower-alpha;
+}
+
+h4 {
+  margin: 20px 0px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #3c4043;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px 0px;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #5f6368;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 20px;
+}
+
+nav {
+  padding: 0px 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 30px;
+  color: #5f6368;
+  font-weight: 600;
+  cursor: pointer;
+  padding-bottom: 8px;
+  list-style: none;
+}
+
+.domande {
+  padding: 50px 0px;
+}
+
+.border-blue {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
+
+.domanda,
+.risposta p {
+  margin-bottom: 25px;
 }
